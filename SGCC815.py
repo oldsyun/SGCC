@@ -446,7 +446,6 @@ if __name__ == "__main__":
     for n in downthread_list:
         n.join()
     addnum = readid() - startid
-    # writexls(DB2Excel(160))
     if addnum > 0:
         lstw = DB2Excel(addnum)
         if len(lstw) > 0:
